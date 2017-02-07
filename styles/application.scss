@@ -1,0 +1,40 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+$white: rgba(255, 255, 255, 1);
+$grayLight: rgba(240, 240, 240, 1);
+
+.bg-color--grayLight {
+  background-color: $grayLight;
+}
+
+.container-fluid {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text--xl {
+  font-size: 2.2rem;
+}
+
+.va--middle {
+  vertical-align: middle;
+}
+
+.bg-color--grayLight {
+  background-color: $grayLight;
+}
+
+
+.bg-color--white {
+  background-color: $white;
+}
+
+.br--t {
+  border-radius: 3px;
+}
+
+.WellNegative {
+  @extend .bg-color--white;
+  @extend .br--t;
+}
